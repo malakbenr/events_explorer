@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎉 Events Explorer
 
-## Getting Started
+Events Explorer is a small web application for finding events organized by country, using the [Ticket Master API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/).
 
-First, run the development server:
+🔗 [Link](https://events_explorer.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project utilizes NextJS 13 app directory and React Server Components to fetch data from [Ticket Master API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/) and serve up performant server-generated pages.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project aims to help further my understanding of the [Nextjs](https://nextjs.org/) framework and dig deeper into it. Under the hood, this project uses:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Nextjs](https://nextjs.org/)
+- [Ticket Master API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+![Events Explorer home page](/screenshots/home.png)
+![Events Explorer events page](/screenshots/events.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
