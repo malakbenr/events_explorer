@@ -2,7 +2,7 @@
 
 Events Explorer is a small web application for finding events organized by country, using the [Ticket Master API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/).
 
-🔗 [Link](https://events_explorer.vercel.app)
+🔗 [Link](https://events-explorer.vercel.app)
 
 ## Introduction
 
